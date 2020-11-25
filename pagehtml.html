@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cs web student </title>
+    <link rel="stylesheet" href="cs_of_html.css">
+    <script type="text/javascript">
+        function sumi(){
+
+   var n6= parseInt(document.getElementById("n6").value);
+   var n7= parseInt(document.getElementById("n7").value);
+   var n8= parseInt(document.getElementById("n8").value);
+   var n9= parseInt(document.getElementById("n9").value);
+   console.log(n6,n7,n8,n9)
+    parseInt (document.getElementById("n10").innerHTML=n6+n7+n8+n9);
+    
+    }
+    </script>
+</head>
+<body>
+    <nav class="menu">
+        <div id="logo"> cs student app </div>
+        <ul style="font-size: 30pt;">
+            <li><a class="menu-item" href="#">About</a></li>
+            <li><a class="menu-item" href="#">Biography</a></li>
+            <li><a class="menu-item" href="#">Gallery </a></li>
+            <li><a class="menu-item" href="#">contact</a></li>
+        </ul>
+    </nav>
+    <div id="pic">
+        <img src="تصميم نموذج.jpg"  >
+        <div id="title">
+            <H1 style = "font-size:120pt"> cs student web site  </H1> 
+    
+        </div>
+    </div>
+  <div id="box1" style="font-size: 60pt;" >
+    <H1 style = "font-size:100pt"> Personal Information  </H1> 
+
+      Name of Student: <input type="text" id="n1" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+  </br>
+      Department: <input type="text" id="n2" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+      Age : <input type="date" id="n3" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+      Class : <input type="text" id="n4" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+    </br>
+     Address : <input type="text" id="n5" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+  </div>
+
+  <div id="box2" style="font-size: 60pt;">
+    <H1 style = "font-size:100pt"> Digree of student  </H1> 
+
+   The programming: <input type="text" id="n6" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+   THe English: <input type="text" id="n7" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+   The Math  : <input type="text" id="n8" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+   Data Base : <input type="text" id="n9" style="font-size: 60px; background-color: rgb(255, 244, 230);">
+</br>
+   The sumition : <p id="n10" style="font-size: 60px; background-color: rgb(255, 244, 230);"></p>
+   <input type="button" onclick="sumi()" value="sum" style="font-size: 60px;background-color: rgb(255, 244, 230);" >
+</div>
+
+<div id="send" style="text-align: center;background-color: darkred;">
+    <input style="font-size: 60px;background-color: rgb(255, 244, 230);"type="submit" value ="send ">
+</div>
+<div id="box3">
+    <img src="انجاز.jpg"
+    style=" widows:1000px;height:600px " 
+    alt ="my pic">>
+</img>
+</div>
+  </div>
+  <div id="box4">
+      <img src="صورة شخصية.png" width="400" height="400">
+  </br>
+    <label class="label" for="picture">choose photo</label>
+   <input placeholder="ddddddddd"  type="file" style="font-size: 60px;background-color: rgb(255, 244, 230);" id="picture"  >
+  </div>
+</body>
+</html>

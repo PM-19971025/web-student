@@ -1,0 +1,108 @@
+.menu
+{
+    background-color: rgb(2, 7, 85);
+    color: #fff;
+    height: 120px;
+    
+}
+.menu #logo{
+    float: left;
+    height: 60;
+    padding: 30px 60px;
+    font-size: 2em;
+    line-height: 60px;
+}
+.menu > ul{
+ margin: 0;
+ padding: 0;
+ float: left;
+ list-style-type: none;   
+}
+.menu > ul > li{
+    float: left;
+}
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px; 
+    height: 60px;
+    line-height: 60px;
+    color:#fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+ background-color: burlywood;   
+}
+.txtbox{
+position: fixed;
+top: 1000px;
+left: 20px; 
+text-align: left;
+padding-inline: 2px; 
+
+}
+#pic{
+   
+position: absolute;
+top:200px;
+left: 0;
+right: 0;
+width: 6000px;
+text-align: left;
+background-color: rgb(5, 39, 150);
+
+}
+#title{
+    position: absolute;
+    top:3px;
+   color: cornsilk;
+   padding-left: 20px;
+
+}
+#box1
+{position: fixed;
+    top:1500px;
+    left: 20px;
+    border: darkblue ;
+
+}
+#box2
+{
+    position: fixed;
+    top:1500px;
+    right:20px;
+    border: darkblue ; 
+}
+#box3
+{
+    position: fixed;
+    top:700px;
+    right:420px;
+    border-style: dashed;
+    border-color: rgb(251, 255, 8);
+    border-width: 20pt;  
+}
+#box4
+{position: fixed;
+    top: 1800px;
+    left:2300px;
+
+}
+#send
+{
+    position: fixed;
+    top:2500px;
+    right:20px;
+    left: 20px;
+}
+
+#picture{
+    visibility: hidden;
+}
+
+.label{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: steelblue;
+    color: white;
+}
